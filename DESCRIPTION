@@ -1,11 +1,45 @@
-Package: NDim4jecs
+Package: GSimp4jecs
 Type: Package
-Title: What the Package Does (Title Case)
-Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Title: Gibbs sampling for imputation of left censored data
+Version: 0.0.0.999
+Authors@R: person(given = "Shoji", family = "Nakayama", role = c("aut", "cre"), email = "fabre@nies.go.jp")
+Description: This is a package for Gibbs sampling to impute left censored data.
+    This is originally created by Wei et al. and made as a R package for the use in the Japan Environment and Children's Study.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 7.1.1
+Roxygen: list(markdown = TRUE)
+Suggests: 
+    testthat,
+    knitr,
+    rmarkdown
+Imports:
+    abind,
+    doParallel,
+    foreach,
+    FNN,
+    ggplot2,
+    glmnet,
+    graphics,
+    grid,
+    impute,
+    imputeLCMD,
+    magrittr,
+    methods,
+    MASS,
+    Matrix,
+    missForest,
+    mvtnorm,
+    parallel,
+    randomForest,
+    reshape2,
+    rpart,
+    ropls,
+    stats,
+    utils,
+    vegan
+Language: en-GB
+VignetteBuilder: knitr
+Depends: 
+    R (>= 2.10)
