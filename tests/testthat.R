@@ -1,4 +1,4 @@
 library(testthat)
-library(GSimp4jecs)
+library(NDim4jecs)
 
-test_check("GSimp4jecs")
+test_check("NDim4jecs")

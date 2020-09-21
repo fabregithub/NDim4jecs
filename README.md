@@ -8,12 +8,9 @@ NDim4jecs
 <!-- badges: end -->
 
 R package implementation of GSimp
-=================================
+---------------------------------
 
-Introduction
-------------
-
-NDim4jecs is the impletementation of GSimp into an R package for the
+NDim4jecs is the implementation of GSimp into an R package for the
 internal use.
 
 All content of GSimp is licensed under the [Creative Commons

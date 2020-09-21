@@ -1,9 +1,9 @@
-#' GSimp4jecs
+#' NDim4jecs
 #'
-#' This is a package for Gibbs sampling to impute left censored data. This is originally created by Wei et al. and made as a R package for the use in the Japan Environment and Children's Study.
+#' This is a package to implement GSimp codes. GSimp is created by Wei et al. and made as a R package for the use in the Japan Environment and Children's Study.
 #'
 #' @docType package
-#' @name GSimp4jecs
+#' @name NDim4jecs
 #'
 #' @import MASS FNN glmnet grid rpart abind magrittr imputeLCMD doParallel foreach reshape2 ropls vegan
 #'

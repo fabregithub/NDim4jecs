@@ -1,8 +1,8 @@
 ---
-title: "GSimp"
+title: "NDim4jecs"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{GSimp}
+  %\VignetteIndexEntry{NDim4jecs}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
@@ -15,5 +15,5 @@ knitr::opts_chunk$set(
 ```
 
 ```{r setup}
-library(GSimp4jecs)
+library(NDim4jecs)
 ```

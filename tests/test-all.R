@@ -1,2 +1,2 @@
 library('testthat')
-test_check('GSimp4jecs')
+test_check('NDim4jecs')
