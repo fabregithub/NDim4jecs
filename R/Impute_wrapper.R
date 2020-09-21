@@ -108,7 +108,7 @@ Zero_wrapper <- function(data) {
 #' @export
 #'
 QRILC_wrapper <- function(data, ...) {
-  result <- data %>% log %>% impute.QRILC(., ...) %>% extract2(1) %>% exp
+  result <- data %>% log %>% impute.QRILC(., ...) %>% extract2(1) %>% exp()
   return(result)
 }
 
