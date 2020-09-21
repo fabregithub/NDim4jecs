@@ -108,7 +108,7 @@ Zero_wrapper <- function(data) {
 #' @export
 #'
 QRILC_wrapper <- function(data, ...) {
-  result <- data %>% log %>% impute.QRILC(., ...) %>% extract2(1) %>% exp()
+  result <- data %>% log %>% impute.QRILC(., ...) %>% extract2(1) %>% exp
   return(result)
 }
 
@@ -146,7 +146,7 @@ pre_processing_GS_wrapper <- function(data) {
   data_imp <- data_imp_log_sc %>%
     scale_recover(., method = 'recover',
                   param_df = data_raw_log_qrilc_sc_df_param) %>%
-    extract2(1) %>% exp()
+    extract2(1) %>% exp
   return(data_imp)
 }
 
