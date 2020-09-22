@@ -1,7 +1,7 @@
 Package: NDim4jecs
 Type: Package
 Title: Gibbs sampling for imputation of left censored data
-Version: 0.0.0.999
+Version: 0.1.0
 Authors@R: person(given = "Shoji", family = "Nakayama", role = c("aut", "cre"), email = "fabre@nies.go.jp")
 Description: This is a package to implement GSimp codes. GSimp is created by Wei et al. and made as a R package for the use in the Japan Environment and Children's Study.
 License: CC BY 4.0
