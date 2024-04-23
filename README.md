@@ -21,7 +21,16 @@ You should cite this paper:
 
 [![DOI:10.1371/journal.pcbi.1005973](https://zenodo.org/badge/DOI/10.1371/journal.pcbi.1005973.svg)](https://doi.org/10.1371/journal.pcbi.1005973)
 
-Install required packages first
+Installation
+------------
+
+You can install the development version of NDim4jecs
+[GitHub](https://github.com/) with:
+
+    # install.packages("devtools")
+    devtools::install_github("fabregithub/NDim4jecs")
+
+You may need to install the following dependent packages
 ------------
     if (!requireNamespace("BiocManager", quietly = TRUE))
       install.packages("BiocManager")
@@ -44,13 +53,3 @@ Install required packages first
                    'randomForest',
                    'reshape2',
                    'vegan'))
-
-Installation
-------------
-
-You can install the development version of NDim4jecs
-[GitHub](https://github.com/) with:
-
-    # install.packages("devtools")
-    devtools::install_github("fabregithub/NDim4jecs")
-
